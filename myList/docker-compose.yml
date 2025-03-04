@@ -1,0 +1,30 @@
+version: '3.4'
+services:
+  mylist:
+    image: ${DOCKER_REGISTRY-}mylist
+    build:
+      context: .
+      dockerfile: myList/Dockerfile
+    ports:
+      - "5000:80"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - CONNECTION_STRING=Server=db;Database=list;User=root;Password=calvin0701
+    depends_on:
+      - db
+
+ 
+
+  db:
+    image: mysql:9.1.0
+    environment:
+      MYSQL_ROOT_PASSWORD: calvin0701
+      MYSQL_DATABASE: list
+    ports:
+      - "3307:3306"
+    volumes:
+     - mysql_data:/var/lib/mysql
+
+volumes:
+    mysql_data:
+  

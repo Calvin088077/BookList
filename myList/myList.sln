@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "myList", "myList\myList.csproj", "{A8B68F8C-7426-4750-B370-850D4148325B}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{1BE0FA4A-0391-4090-B664-53D24A0B08FA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "myListTests", "..\myList.test\myListTests.csproj", "{3D619E41-8D19-47B3-86D3-F5990EA6132C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A8B68F8C-7426-4750-B370-850D4148325B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8B68F8C-7426-4750-B370-850D4148325B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8B68F8C-7426-4750-B370-850D4148325B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8B68F8C-7426-4750-B370-850D4148325B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BE0FA4A-0391-4090-B664-53D24A0B08FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BE0FA4A-0391-4090-B664-53D24A0B08FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BE0FA4A-0391-4090-B664-53D24A0B08FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BE0FA4A-0391-4090-B664-53D24A0B08FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D619E41-8D19-47B3-86D3-F5990EA6132C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D619E41-8D19-47B3-86D3-F5990EA6132C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D619E41-8D19-47B3-86D3-F5990EA6132C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D619E41-8D19-47B3-86D3-F5990EA6132C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BC0AEE18-CADA-4303-8445-AE3BC09F1F5C}
+	EndGlobalSection
+EndGlobal

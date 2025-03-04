@@ -1,0 +1,12 @@
+name: dockercompose8825136332199134999
+services:
+  mylist:
+    build:
+      context: C:\Users\user\source\repos\myList
+      dockerfile: myList/Dockerfile
+    image: mylist
+    networks:
+      default: null
+networks:
+  default:
+    name: dockercompose8825136332199134999_default

@@ -1,0 +1,40 @@
+name: dockercompose8825136332199134999
+services:
+  db:
+    environment:
+      MYSQL_DATABASE: list
+      MYSQL_ROOT_PASSWORD: calvin0701
+    image: mysql:latest
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 3306
+        published: "3307"
+        protocol: tcp
+  mylist:
+    build:
+      context: C:\Users\user\source\repos\myList
+      dockerfile: myList/Dockerfile
+    command:
+      - /bin/bash
+      - -c
+      - dotnet ef migrations add InitialCreate && dotnet ef database update && dotnet myList.dll
+    depends_on:
+      db:
+        condition: service_started
+        required: true
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      Server: db;Database=list;User=root;Password=calvin0701
+    image: mylist
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 80
+        published: "5000"
+        protocol: tcp
+networks:
+  default:
+    name: dockercompose8825136332199134999_default
