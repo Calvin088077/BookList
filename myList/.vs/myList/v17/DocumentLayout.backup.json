@@ -1,7 +1,20 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\calvi\\source\\repos\\myList\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A8B68F8C-7426-4750-B370-850D4148325B}|myList\\myList.csproj|c:\\users\\calvi\\source\\repos\\mylist\\mylist\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8B68F8C-7426-4750-B370-850D4148325B}|myList\\myList.csproj|solutionrelative:mylist\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8B68F8C-7426-4750-B370-850D4148325B}|myList\\myList.csproj|c:\\users\\calvi\\source\\repos\\mylist\\mylist\\dockerfile||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A8B68F8C-7426-4750-B370-850D4148325B}|myList\\myList.csproj|solutionrelative:mylist\\dockerfile||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8B68F8C-7426-4750-B370-850D4148325B}|myList\\myList.csproj|c:\\users\\calvi\\source\\repos\\mylist\\mylist\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8B68F8C-7426-4750-B370-850D4148325B}|myList\\myList.csproj|solutionrelative:mylist\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +22,46 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "book.cs",
+              "DocumentMoniker": "C:\\Users\\calvi\\source\\repos\\myList\\myList\\Models\\book.cs",
+              "RelativeDocumentMoniker": "myList\\Models\\book.cs",
+              "ToolTip": "C:\\Users\\calvi\\source\\repos\\myList\\myList\\Models\\book.cs",
+              "RelativeToolTip": "myList\\Models\\book.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T15:24:36.164Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\calvi\\source\\repos\\myList\\myList\\Dockerfile",
+              "RelativeDocumentMoniker": "myList\\Dockerfile",
+              "ToolTip": "C:\\Users\\calvi\\source\\repos\\myList\\myList\\Dockerfile",
+              "RelativeToolTip": "myList\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-03-04T15:23:23.141Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\calvi\\source\\repos\\myList\\myList\\Program.cs",
+              "RelativeDocumentMoniker": "myList\\Program.cs",
+              "ToolTip": "C:\\Users\\calvi\\source\\repos\\myList\\myList\\Program.cs",
+              "RelativeToolTip": "myList\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T15:20:21.884Z",
+              "EditorCaption": ""
             }
           ]
         }
